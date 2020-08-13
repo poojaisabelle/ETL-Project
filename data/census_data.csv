@@ -1,4 +1,4 @@
-Household Income,Population,Median Age,Per Capita Income,Poverty Count,Unemployment Count,zip_code
+Median Household Income,Population,Median Age,Per Capita Income,Poverty Count,Unemployment Count,ZCTA
 13092.0,17242.0,40.5,6999.0,10772.0,2316.0,00601
 16358.0,38442.0,42.3,9277.0,19611.0,1927.0,00602
 16603.0,48814.0,41.1,11307.0,24337.0,3124.0,00603
