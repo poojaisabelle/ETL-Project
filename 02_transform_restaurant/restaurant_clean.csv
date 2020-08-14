@@ -1,4 +1,4 @@
-Restaurant name,Address,zip_code
+restaurant_name,address,zip_code
 SONIC Drive In,800 N Canal Blvd,70301
 Taco Bell,206 Wears Valley Rd,37863
 Arby's,3652 Parkway,37863
@@ -5302,7 +5302,7 @@ Papa John's Pizza,6324 Gaston Ave,75214
 Arby's,2921 Decker Dr,54868
 Subway,11417 E Colfax Ave,80010
 Rally's,2556 N High St,43202
-KFC,3340 Mall Loop Dr Louis Joliet Mall Louis Joliet Mall, 60431
+KFC,3340 Mall Loop Dr Louis Joliet Mall Louis Joliet Mall,60431
 McDonald's,1450 Ala Moana Blvd,96814
 Quiznos,1131 Jefferson Davis Hwy,22401
 Taco John's,2175 Sugarland Dr,82801
