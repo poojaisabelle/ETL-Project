@@ -5,12 +5,12 @@
 
 CREATE TABLE "social_economics" (
     "ZCTA" CHAR(5)   NOT NULL,
-    "population" INT   NOT NULL,
-    "median_age" FLOAT   NOT NULL,
-    "median_household_income" FLOAT   NOT NULL,
-    "per_capita_income" FLOAT   NOT NULL,
-    "poverty_count" INT   NOT NULL,
-    "unemployment_count" INT   NOT NULL,
+    "population" INT,
+    "median_age" FLOAT,
+    "median_household_income" FLOAT,
+    "per_capita_income" FLOAT,
+    "poverty_count" INT,
+    "unemployment_count" INT,
     CONSTRAINT "pk_social_economics" PRIMARY KEY (
         "ZCTA"
      )
@@ -34,14 +34,11 @@ CREATE TABLE "zip_code" (
 );
 
 CREATE TABLE "restaurant_address" (
-    "restaurant_address_id" INT   NOT NULL,
+    "restaurant_address_id" SERIAL   NOT NULL,
     "restaurant_id" INT   NOT NULL,
     "street_no" VARCHAR(30)   NOT NULL,
     "street_name" VARCHAR   NOT NULL,
-    "zip_code" CHAR(5)   NOT NULL,
-    CONSTRAINT "pk_restaurant_address" PRIMARY KEY (
-        "restaurant_address_id"
-     )
+    "zip_code" CHAR(5)   NOT NULL
 );
 
 CREATE TABLE "restaurant" (
