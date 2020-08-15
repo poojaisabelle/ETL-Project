@@ -1,0 +1,572 @@
+restaurant_id,restaurant_name
+1,SONIC Drive In
+2,Taco Bell
+3,Arby's
+4,Steak 'n Shake
+5,Wendy's
+6,Burger King
+7,Chipotle Mexican Grill
+8,7-Eleven
+9,Dairy Queen
+10,Mr. Hero
+11,Golden Chick
+12,Carl's Jr
+13,Checkers
+14,Rally's
+15,Togo's
+16,Little Q Hot Pot
+17,McDonald's
+18,Five Guys
+19,Boston Road Pizza
+20,Boston Market
+21,D'Angelo Grilled Sandwiches
+22,Nino's Pizzarama
+23,Filippi's Pizza Grotto
+24,Jack in the Box
+25,Round Table Pizza
+26,El Pollo Loco
+27,In-N-Out Burger
+28,Copper Oven Artisan Pizza
+29,Del Taco
+30,Little Caesars Pizza
+31,Sbarro
+32,Casey's General Store
+33,SUBWAY
+34,Fat Patty's
+35,Pizza Hut
+36,Culver's
+37,KFC
+38,SONIC Drive-In
+39,Whataburger
+40,Chick-Fil-A
+41,Firehouse Subs
+42,Cupie's Drive-In
+43,Primo's Pizza
+44,Simple Simon's Pizza
+45,CASA Mexicana
+46,Bob Evans
+47,Players Grill
+48,Back Yard Burgers
+49,Italo's Pizza
+50,Hunan Gardens
+51,Toppers Pizza
+52,Hernandez Mexican Restaurant
+53,Glorious Foods Gourmet to go & Catering
+54,Schlotzsky's
+55,Chicken Express
+56,Big House Burgers
+57,Jerry's Subs & Pizza
+58,Fox's Pizza Den
+59,Pizza Pub
+60,Grande Italian Restaurant
+61,Arni's Crawfordsville
+62,Arctic Circle
+63,Pizza Barn
+64,Rico's Pizza & Subs
+65,B's Pizza
+66,Domino's Pizza
+67,Hardee's
+68,Port of Subs
+69,Milk Street Cafe
+70,Pei Wei
+71,W.G. Grinders
+72,Foster's Freeze
+73,Caseys Carry Out Pizza
+74,Tastee Freez
+75,Taco Bueno
+76,Jimmy John's
+77,Subway
+78,Papa John's Pizza
+79,Cook Out
+80,SUBWAY¬Æ
+81,Krispy Krunchy Chicken
+82,Hardee's/red Burrito
+83,Lacey's On The Hill Restaurant
+84,Pizza Pro
+85,Cottage Inn Pizza
+86,Runza
+87,Eudici's Pizza
+88,Taco Cabana
+89,Boomer's Drive-In
+90,Hot Dog on a Stick
+91,Dunkin' Donuts
+92,Christo's Original
+93,Carvel
+94,Chicken Inn
+95,Shake Shack
+96,Quiznos Sub
+97,KFC - Kentucky Fried Chicken
+98,Chick-fil-A
+99,El Burrito Loco
+100,Papa Gino's
+101,Spangles
+102,Capri Restaurant
+103,Angelina's Pizza
+104,Chanello's Pizza
+105,Krystal
+106,China Bowl Take Out Restaurant
+107,Sonic Drive In
+108,Auntie Anne's Pretzels
+109,Garden Catering
+110,A's Ace Burgers
+111,Baker's Drive Thru
+112,Pizza Guys
+113,Chicago Pizza With A Twist
+114,Surfside Burger Shack
+115,Baskin-Robbins
+116,Church's Chicken
+117,Ameci Pizza & Pasta
+118,Ak Buffet
+119,Barro's Pizza
+120,Long John Silver's
+121,Boys Burgers
+122,Topper's Pizza
+123,Panda Express
+124,Einstein Bros Bagels
+125,Band Box Diner
+126,Quiznos
+127,Jersey Mike's Subs
+128,Tom's Drive In
+129,Boston Burger Company
+130,Romas Pizza
+131,Panera Bread
+132,Wienerschnitzel
+133,Pony Express To Go
+134,Popeyes
+135,Sonic
+136,Gambino's Pizza
+137,West Point Pizza
+138,McAlister's Deli
+139,Barberitos
+140,Mrs. Fields
+141,Taco Mayo
+142,Tacconelli's Pizza
+143,Guerrazzi's
+144,Gus's Carryout
+145,Moe's Southwest Grill
+146,Siam Fusion
+147,Steak Escape
+148,Mr. Chicken
+149,B.GOOD
+150,Taco Casa
+151,Sam's Gyros
+152,Bojangles' Famous Chicken 'n Biscuits
+153,Steak N Shake
+154,Waffle House
+155,Raising Cane's Chicken Fingers
+156,Sumo Steaks
+157,Dragon Dragon
+158,Crown Fried Chicken
+159,Tumby's Pizza
+160,Creperie
+161,Qdoba Mexican Eats
+162,Fat Mo's Burgers
+163,Charley's Grilled Subs
+164,Miss Katie's Diner
+165,Chronic Tacos
+166,Shawarma Kebab
+167,Wild Willy's
+168,Jake's Wayback Burgers
+169,Taco Mama
+170,King of Wings
+171,Pretzel Time
+172,Sarku Japan
+173,Ivan's Restaurant
+174,Fuddruckers
+175,Mandarin Garden
+176,El Taquito
+177,Four Burgers
+178,Penn Station East Coast Subs
+179,The New Chalet
+180,Blackjack Pizza
+181,Gyromania Grill
+182,Mc Donalds
+183,Yoshinoya
+184,China Garden
+185,Mama's Fried Chicken
+186,China Restaurant
+187,Burger Basket
+188,Lobster Hut
+189,Ben and Jerry's
+190,Taco Time
+191,Mr. Hoagie
+192,Fazzari's
+193,Taco John's
+194,Pizza Inn
+195,Cousin's Subs
+196,Fosters Freeze
+197,Starbucks Coffee
+198,Carl's Jr.
+199,Taco Bob's
+200,White Castle
+201,Pepperjax Grill
+202,The Pizza Company
+203,Joe's Crab Shack
+204,The Sandwich Place
+205,Little Caesar's Pizza
+206,Maid-rite
+207,Frates Drive-In
+208,Jim's Steaks
+209,Gourmet Grill
+210,Villa Italian Kitchen
+211,Jacks N Joe
+212,Wingstop
+213,Beef Villa
+214,Tanuki Sushi Bar and Garden
+215,Old Carolina Barbecue Company
+216,Flame Broiler
+217,Kow Thai Take Out
+218,iSushi
+219,Shangri-la Chinese Restaurant
+220,Blackies Hotdog Stand
+221,Chun Wah Kam Noodle Factory
+222,Italian Pizzeria Restaurant
+223,Sakana
+224,Bubba's Texas Burger Shack
+225,Ani's Chicken
+226,Farmer Boys
+227,Jamba Juice
+228,Hot Lips Pizza
+229,Rubio's
+230,Chicken Mary's
+231,Fuku
+232,Little Caesars
+233,Primo Hoagies
+234,De Afghanan Kabob House
+235,Raising Cane's
+236,Moe's Burger Joint
+237,Bobby's Burger Palace
+238,Loving Hut
+239,Capriotti's Sandwich Shop
+240,Italian Village Pizza
+241,Mustard Seed
+242,Saladworks
+243,Jim's Steakout
+244,Charo Chicken
+245,Huddle House
+246,Great Wall Restaurant
+247,Luby's
+248,Big Island Pizza
+249,My Daddy's Pizza & Grille
+250,Boddie Noell Enterprises Inc
+251,Roma Pizza
+252,Cafe Paris
+253,Abruzzi Pizza
+254,Bistro To Go
+255,Arthur Treacher's Fish & Chips
+256,Blimpie
+257,Tony Wang's Chinese Restaurant
+258,D & M Subs
+259,Danielle Inc
+260,Smithfield's Chicken 'n Bar-b-q
+261,Jack in the Box -
+262,Gangnam Style Korean Kitchen
+263,Red Baron Drive-In
+264,Which Wich
+265,Sonic Drive-In
+266,Sonic Drive in
+267,Grandy's
+268,Wolf River Diner
+269,The Extreme Pita
+270,Picnic Basket
+271,Popeyes Louisiana Kitchen
+272,Natraj's Tandoori
+273,Acropolis Gyro Palace
+274,Bennidito's Pizza
+275,Dick's Hamburgers
+276,Pick Up Stix
+277,B Good
+278,Peach Garden
+279,Pollo Tropical
+280,Dominick's Italian Restaurant
+281,St. Clair Broiler
+282,Baja Fresh Mexican Grill
+283,Fatburger
+284,Charlie's Pizzeria
+285,Salad Creations
+286,Price's Chicken Coop
+287,Jollibee
+288,Lilly's Restaurant
+289,Sakura Japanese Restaurant
+290,Low Chinese American Restaurant
+291,Johnny's Wife's Place
+292,Pita's Republic
+293,Comet Burgers
+294,Boardwalk Grill
+295,Henny Penny Family Restaurant
+296,Dominion Pizza
+297,Cook St. Helena
+298,Golden Dragon
+299,Batter Up
+300,Quizno's
+301,ShopHouse Southeast Asian Kitchen
+302,Mignano Bros
+303,Backyard Grill
+304,Gold Star Chili
+305,Cluck-U Chicken
+306,Local Burger
+307,Jon Smith Subs
+308,Fox's Gourmet Delicatessen
+309,Great Wraps
+310,Lin's Garden
+311,Pretzel Maker
+312,Penguin Point
+313,Capri Italian Restaurant
+314,King Wah
+315,Regions Bank
+316,KFC/AW
+317,McDonalds
+318,Bojangles
+319,Taco Bell / KFC
+320,Arby's - Closed
+321,Shell
+322,Carl's Jr. / Green Burrito
+323,Shamus's Sandwich Shoppe
+324,Long John Silvers
+325,Fajita Grill
+326,George's Gyros Spot 2
+327,Lakewood Ranch Baptist Church
+328,China Buffet
+329,The Grille
+330,Good Guys Pizza
+331,Charleys Philly Steaks
+332,Islands Restaurant
+333,The Arch at McDonald's Campus Office Building
+334,Buona Vita
+335,Rick's Drive In Out
+336,Johnson's Popcorn
+337,Popeyes Chicken Biscuits
+338,Boloco
+339,Wolf's Dairy Queen
+340,Sweet Magnolia's Cafe Bakery
+341,Hardee's / Red Burrito
+342,Great American Hamburger Pie Co
+343,Golden Harvest Chinese Restaurant
+344,The Flame Broiler
+345,Penn's Thai Cafe
+346,Rally's Hamburgers
+347,Long John Silver's / AW
+348,Mcdonalds Whitehouse
+349,Captain D's
+350,Burger King/Popeyes
+351,KFC/Taco Bell
+352,Carl's Jr / Green Burrito
+353,Bob Evans Restaurant
+354,El Original
+355,Old Country Buffet
+356,Arbys
+357,Fazoli's
+358,Los Cotijas Taco Shop
+359,Hardees
+360,Photo's Hot Dogs
+361,Mr Hero
+362,T-Mobile
+363,Marathon
+364,Jimmy Johns
+365,Errandbug Fast Restaurant Delivery
+366,Legendz
+367,Lion's Choice
+368,Mcdonald's
+369,Adobe Cantina Salsa
+370,Orange Julius
+371,Kasa's Pizza
+372,The Dog Pit
+373,Great Bend Taco
+374,Riviera D'Italia
+375,Charlie's Restaurant
+376,Burrito Bros.
+377,Dunkin Donuts
+378,Best Gyros
+379,Steele Pier Hotdogs
+380,Wendy's Valenti Management
+381,Skyline Chili
+382,Tropicana Pizza
+383,VeganBurg
+384,Smashburger
+385,Moe's Cafe
+386,Vista Drive In
+387,China City
+388,Blake's Lotaburger
+389,Belleria Pizzeria
+390,Pal's Sudden Service
+391,Tiffin
+392,Baker's Drive-thru
+393,High Tech Burrito
+394,Parkside Gyros
+395,Dairy Heaven
+396,Cobani Gyro Kebab
+397,Zaxby's
+398,Au Bon Pain
+399,East of Edens
+400,Chipotle
+401,Grand China Chinese Restaurant
+402,Taco Del Mar
+403,Pizza Pipeline
+404,Richard's Pizza
+405,The Corner Cafe
+406,Maki Fresh
+407,Fat Boy Burgers
+408,Flying J
+409,Extreme Pita
+410,Git-It-N-Git
+411,GD Bro Burger
+412,Hometown Buffet
+413,Ryan's
+414,Smoothie King
+415,Famous Dave's
+416,Sunrise Gyros
+417,Zankou Chicken
+418,Rascal's Teriyaki Grill
+419,Ay Jalisco
+420,BURGERFI
+421,Rallys
+422,Zaxby's Chicken Fingers & Buffalo Wings
+423,Gyros Express
+424,Super Wings
+425,Roche Bros.
+426,TheMINT Gastropub
+427,California Tortilla
+428,Thai Delight
+429,Bristol 45 Diner
+430,Sheetz
+431,Frankies
+432,Togi's Sub Station
+433,Citizen Burger Bar
+434,Tropical Smoothie Cafe
+435,Papa Joe's Pizza
+436,HiBoy Drive-in
+437,El Ranchito Taco Shop
+438,Bush's Chicken
+439,Hilton Boston Logan Airport
+440,Festival Eatery
+441,Patrick's on Third
+442,Mason's Famous Lobster Rolls
+443,Burger House
+444,Pollo Campero
+445,All About Burger
+446,Nathan's Famous
+447,The Swinging Door
+448,Long John Silvers / A&W
+449,Wetzel's Pretzels
+450,Clambake Seafood Restaurant
+451,BeanThru
+452,Taco Bell/KFC
+453,Cafe Zona Rosa
+454,Papa Gyros
+455,Checker's Pizza
+456,Chinatown Inn
+457,Kum & Go
+458,PDQ
+459,Ray J's American Grill
+460,New York Pizza Department
+461,Fashion Cafe
+462,Qdoba Mexican Grill
+463,Tam's Burgers
+464,CD's Wings
+465,McDonald's of Rolesville
+466,A&W/Long John Silvers
+467,Captain D's Seafood
+468,Wawa
+469,Popeyes Chicken & Biscuits
+470,Westchester Burger Company
+471,Raising Canes
+472,Mcdonalds
+473,Panda Express Innovation Kitchen
+474,Chicken Kitchen
+475,Jim Bob's Chicken Fingers
+476,Country Buffet
+477,Petro's Chili & Chips
+478,QDOBA Mexican Eats
+479,California Chicken Cafe
+480,Blue Coast Burrito
+481,Lake Trout 2
+482,Happy Dragon
+483,Flaming Grill and Buffet
+484,Oscar's Restaurant
+485,Mooney's Ice Cream Store
+486,Cozumel
+487,Cremo Drive-In
+488,Jalsa Indian Fast Food
+489,La Hacienda Mexican Restaurant
+490,Flushing A
+491,Halo Burger
+492,Ocean Empire Restaurant
+493,Kismet
+494,Miguel's Jr
+495,Mickey's Gyros & Ribs
+496,Pilot Travel Center
+497,Fratellos Hot Dogs
+498,Taco Bell/Pizza Hut
+499,Burger King¬Æ
+500,Fast Eddie's MOAB
+501,Lupo's Char-Pit
+502,Original Tommy's Hamburgers
+503,Wienerschitzel
+504,Jack's Goal Line Stand
+505,b.good
+506,Bucky's Family Restaurant
+507,Little Italy
+508,Sam's Pizza Restaurant
+509,Hobo's Korner Kitchen
+510,Mangia Pizza
+511,Carl's Jr. / The Green Burrito
+512,Jason's Deli
+513,Andy's Frozen Custard
+514,Portillo's
+515,Johnny Rockets
+516,Taqueria
+517,Umami Burger
+518,King Gyros
+519,Five Guys Burgers And Fries
+520,KFC/Long John Silvers
+521,Zio's Italian Kitchen
+522,Auntie Anne's
+523,Walmart Supercenter
+524,Jimmy's Grotto
+525,Eegee's
+526,Earth Fare
+527,B&D Burgers
+528,Nick's Gyros
+529,90 Miles Cuban Cafe
+530,Tonys Pizza
+531,Sesame Burgers & Beer
+532,Braum's
+533,Hon Lin Restaurant
+534,Popeye's Louisiana Kitchen
+535,McDonalds's
+536,Mah's Garden Restaurant
+537,Dairy Queen (Treat Only)
+538,Five Guys Burgers Fries
+539,Megs Drive In
+540,The Hotdog Shoppe
+541,Kumagoro Fine Japanese Restaurant and Sushi Bar
+542,Wingstop Restaurant
+543,Whipper's Pizza
+544,Kim's Oriental Kitchen
+545,Chinatown Express
+546,Old Mill Crab House
+547,Mr Taco
+548,The 50's Cafe
+549,Papa J's
+550,Jack In The Box
+551,Wise Guys A Chicago Eatery
+552,Sonic America's Drive-In
+553,Heff's Burgers
+554,El Pollo Regio
+555,El Sombrero
+556,Genghis Grill
+557,Palio's Pizza Cafe
+558,Ly's Cafe
+559,Poki Roll
+560,Sub Conscious
+561,Bad Daddy's Burger Bar
+562,Kosta's Gyros
+563,Bell's Pizza
+564,The Hat
+565,Don & Millie's
+566,PepperJax Grill
+567,Ben & Jerry's
+568,Mr. Gyros Greek Food & Pastry
+569,Legends Burgers
+570,Plato's Closet
+571,Stoko's
