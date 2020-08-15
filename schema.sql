@@ -3,26 +3,16 @@
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 
-CREATE TABLE "social_economic" (
-    "ZTCA" CHAR(5)   NOT NULL,
-    "household_income" FLOAT   NOT NULL,
+CREATE TABLE "social_economics" (
+    "ZCTA" CHAR(5)   NOT NULL,
     "population" INT   NOT NULL,
     "median_age" FLOAT   NOT NULL,
-    "per_capital_income" FLOAT   NOT NULL,
+    "median_household_income" FLOAT   NOT NULL,
+    "per_capita_income" FLOAT   NOT NULL,
     "poverty_count" INT   NOT NULL,
     "unemployment_count" INT   NOT NULL,
-    CONSTRAINT "pk_social_economic" PRIMARY KEY (
-        "ZTCA"
-     )
-);
-
-CREATE TABLE "restaurant" (
-    "restaurant_id" INT   NOT NULL,
-    "name" VARCHAR(100)   NOT NULL,
-    "address" VARCHAR   NOT NULL,
-    "zip_code" CHAR(5)   NOT NULL,
-    CONSTRAINT "pk_restaurant" PRIMARY KEY (
-        "restaurant_id"
+    CONSTRAINT "pk_social_economics" PRIMARY KEY (
+        "ZCTA"
      )
 );
 
@@ -37,18 +27,43 @@ CREATE TABLE "zcta" (
 CREATE TABLE "zip_code" (
     "zip_code" CHAR(5)   NOT NULL,
     "city" VARCHAR(100)   NOT NULL,
-    "state" VARCHAR(100)   NOT NULL,
+    "state" VARCHAR(30)   NOT NULL,
     CONSTRAINT "pk_zip_code" PRIMARY KEY (
         "zip_code"
      )
 );
 
+CREATE TABLE "restaurant_address" (
+    "restaurant_address_id" INT   NOT NULL,
+    "restaurant_id" INT   NOT NULL,
+    "street_no" VARCHAR(30)   NOT NULL,
+    "street_name" VARCHAR   NOT NULL,
+    "zip_code" CHAR(5)   NOT NULL,
+    CONSTRAINT "pk_restaurant_address" PRIMARY KEY (
+        "restaurant_address_id"
+     )
+);
+
+CREATE TABLE "restaurant" (
+    "restaurant_id" INT   NOT NULL,
+    "restaurant_name" VARCHAR   NOT NULL,
+    CONSTRAINT "pk_restaurant" PRIMARY KEY (
+        "restaurant_id"
+     ),
+    CONSTRAINT "uc_restaurant_restaurant_name" UNIQUE (
+        "restaurant_name"
+    )
+);
+
 ALTER TABLE "zcta" ADD CONSTRAINT "fk_zcta_zip_code" FOREIGN KEY("zip_code")
-REFERENCES "restaurant" ("zip_code");
+REFERENCES "zip_code" ("zip_code");
 
 ALTER TABLE "zcta" ADD CONSTRAINT "fk_zcta_ZCTA" FOREIGN KEY("ZCTA")
-REFERENCES "social_economic" ("ZTCA");
+REFERENCES "social_economics" ("ZCTA");
 
-ALTER TABLE "zip_code" ADD CONSTRAINT "fk_zip_code_zip_code" FOREIGN KEY("zip_code")
-REFERENCES "restaurant" ("zip_code");
+ALTER TABLE "restaurant_address" ADD CONSTRAINT "fk_restaurant_address_restaurant_id" FOREIGN KEY("restaurant_id")
+REFERENCES "restaurant" ("restaurant_id");
+
+ALTER TABLE "restaurant_address" ADD CONSTRAINT "fk_restaurant_address_zip_code" FOREIGN KEY("zip_code")
+REFERENCES "zip_code" ("zip_code");
 
