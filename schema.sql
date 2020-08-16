@@ -63,4 +63,3 @@ REFERENCES "restaurant" ("restaurant_id");
 
 ALTER TABLE "restaurant_address" ADD CONSTRAINT "fk_restaurant_address_zip_code" FOREIGN KEY("zip_code")
 REFERENCES "zip_code" ("zip_code");
-
