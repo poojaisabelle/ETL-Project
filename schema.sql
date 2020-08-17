@@ -3,7 +3,7 @@
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 
-CREATE TABLE "social_economics" (
+CREATE TABLE "census" (
     "ZCTA" CHAR(5)   NOT NULL,
     "population" FLOAT,
     "median_age" FLOAT,
@@ -11,7 +11,7 @@ CREATE TABLE "social_economics" (
     "per_capita_income" FLOAT,
     "poverty_count" FLOAT,
     "unemployment_count" FLOAT,
-    CONSTRAINT "pk_social_economics" PRIMARY KEY (
+    CONSTRAINT "pk_census" PRIMARY KEY (
         "ZCTA"
      )
 );
@@ -59,10 +59,11 @@ ALTER TABLE "zip_zcta" ADD CONSTRAINT "fk_zip_zcta_zip_code" FOREIGN KEY("zip_co
 REFERENCES "zip_code" ("zip_code");
 
 ALTER TABLE "zip_zcta" ADD CONSTRAINT "fk_zip_zcta_ZCTA" FOREIGN KEY("ZCTA")
-REFERENCES "social_economics" ("ZCTA");
+REFERENCES "census" ("ZCTA");
 
 ALTER TABLE "restaurant_address" ADD CONSTRAINT "fk_restaurant_address_restaurant_id" FOREIGN KEY("restaurant_id")
 REFERENCES "restaurant" ("restaurant_id");
 
 ALTER TABLE "restaurant_address" ADD CONSTRAINT "fk_restaurant_address_zip_code" FOREIGN KEY("zip_code")
 REFERENCES "zip_code" ("zip_code");
+
