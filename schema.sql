@@ -36,7 +36,7 @@ CREATE TABLE "zip_code" (
 CREATE TABLE "restaurant_address" (
     "restaurant_address_id" SERIAL   NOT NULL,
     "restaurant_id" INT   NOT NULL,
-    "street_no" INT   NOT NULL,
+    "street_no" VARCHAR(30)   NOT NULL,
     "street_name" VARCHAR   NOT NULL,
     "zip_code" CHAR(5)   NOT NULL,
     CONSTRAINT "pk_restaurant_address" PRIMARY KEY (
