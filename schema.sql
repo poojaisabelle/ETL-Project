@@ -4,7 +4,7 @@
 
 
 CREATE TABLE "census" (
-    "ZCTA" CHAR(5)   NOT NULL,
+    "zcta" CHAR(5)   NOT NULL,
     "population" FLOAT,
     "median_age" FLOAT,
     "median_household_income" FLOAT,
@@ -12,23 +12,23 @@ CREATE TABLE "census" (
     "poverty_count" FLOAT,
     "unemployment_count" FLOAT,
     CONSTRAINT "pk_census" PRIMARY KEY (
-        "ZCTA"
+        "zcta"
      )
 );
 
 CREATE TABLE "zip_zcta" (
     "zip_code" CHAR(5)   NOT NULL,
-    "ZCTA" CHAR(5)   NOT NULL,
+    "zcta" CHAR(5)   NOT NULL,
     CONSTRAINT "pk_zip_zcta" PRIMARY KEY (
-        "zip_code","ZCTA"
+        "zip_code","zcta"
      )
 );
 
-CREATE TABLE "zip_code" (
+CREATE TABLE "zip" (
     "zip_code" CHAR(5)   NOT NULL,
     "city" VARCHAR(100)   NOT NULL,
     "state" VARCHAR(30)   NOT NULL,
-    CONSTRAINT "pk_zip_code" PRIMARY KEY (
+    CONSTRAINT "pk_zip" PRIMARY KEY (
         "zip_code"
      )
 );
@@ -56,14 +56,14 @@ CREATE TABLE "restaurant" (
 );
 
 ALTER TABLE "zip_zcta" ADD CONSTRAINT "fk_zip_zcta_zip_code" FOREIGN KEY("zip_code")
-REFERENCES "zip_code" ("zip_code");
+REFERENCES "zip" ("zip_code");
 
-ALTER TABLE "zip_zcta" ADD CONSTRAINT "fk_zip_zcta_ZCTA" FOREIGN KEY("ZCTA")
-REFERENCES "census" ("ZCTA");
+ALTER TABLE "zip_zcta" ADD CONSTRAINT "fk_zip_zcta_zcta" FOREIGN KEY("zcta")
+REFERENCES "census" ("zcta");
 
 ALTER TABLE "restaurant_address" ADD CONSTRAINT "fk_restaurant_address_restaurant_id" FOREIGN KEY("restaurant_id")
 REFERENCES "restaurant" ("restaurant_id");
 
 ALTER TABLE "restaurant_address" ADD CONSTRAINT "fk_restaurant_address_zip_code" FOREIGN KEY("zip_code")
-REFERENCES "zip_code" ("zip_code");
+REFERENCES "zip" ("zip_code");
 
