@@ -7,7 +7,7 @@ We are interested in looking at the specific locations of fast food chains in th
 
 ## Project Report
 
-For further details in any of the following steps and our project potentials and limitations, please refer to our **[report](report/ELT_Project_Report.pdf) and the notebooks for each part**.
+For further details in any of the following steps and our project potentials and limitations, please refer to our **[report](report/ETL_Project_Report.pdf) and the notebooks for each part**.
 
 ## Extract
 
