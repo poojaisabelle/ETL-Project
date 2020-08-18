@@ -38,7 +38,7 @@ Please refer to the following notebooks:
 
 * **[Zip to ZCTA Data Transformation](02_transform_zip_zcta/02_transform_zip_zcta.ipynb)**
 
-After our data analysis and transformation, we come up with this ERD and [schema](03_load/03_load.ipynb) before loading data to the PostgreSQL database.
+After our data analysis and transformation, we come up with this ERD and [schema](03_load/schema.sql) before loading data to the PostgreSQL database.
 
 ![ERD](report/ERD.png)
 
