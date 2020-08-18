@@ -12,14 +12,17 @@ For further details in any of the following steps and our project potentials and
 ## Extract
 
 1/ US Census Bureau Demographic Data
+
 Use census API wrapper to retrieve data from the [American Community Survey 5-Year Data (2009-2018)](https://www.census.gov/data/developers/data-sets/acs-5year.html) based on zip code tabulation area (zcta).
 **Please refer to [our notebook](01_extract_census/01_extract_census.ipynb).**
    
-2/ Fast Food Restaurants Across America 
+2/ Fast Food Restaurants Across America
+
 This dataset was extracted from [Kaggle](https://www.kaggle.com/datafiniti/fast-food-restaurants/) and it came in the form of a downloadable CSV.
 **Please refer to [our notebook](01_extract_restaurant/01_extract_restaurant.ipynb).**
 
 3/ Zip Code to ZCTA Cross Walk
+
 This dataset was extracted from [UDS Mapper](https://www.udsmapper.org/zcta-crosswalk.cfm) and it came in the form of a downloadable CSV.
 **Please refer to [our notebook](01_extract_zip_zcta/01_extract_zip_zcta.ipynb).**
 
